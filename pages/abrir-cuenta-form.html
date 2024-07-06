@@ -102,7 +102,7 @@
               id="email"
               class="campo__completo"
               type="email"
-              minlength="5"
+              minlength="4"
               required
             />
             <span class="mensaje-error"></span>
@@ -116,7 +116,6 @@
               id="identificacion"
               class="campo__completo campo__completo--menor"
               type="text"
-              minlength="8"
               required
             />
             <span class="mensaje-error"></span>
@@ -130,8 +129,9 @@
               id="cuil"
               class="campo__completo campo__completo--menor"
               type="text"
-              minlength="10"
-              maxlength="14"
+              minlength="11"
+              maxlength="13"
+              pattern="\d{2}-?\d{8}-?\d{1}"
               required
             />
             <span class="mensaje-error"></span>
@@ -233,5 +233,6 @@
         </h2>
       </section>
     </footer>
+    <script src="../js/main.js" type="module"></script>
   </body>
 </html>
