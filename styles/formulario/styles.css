@@ -50,6 +50,10 @@
     text-align: center;
 }
 
+.formulario__container img.qr {
+    width: 200px;
+}
+
 .formulario__campo {
     margin-bottom: 2em;
 }
@@ -126,6 +130,11 @@
 }
 
 .mensaje-error {
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .925rem;
     color: red;
 }
 
